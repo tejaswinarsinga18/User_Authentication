@@ -1,0 +1,58 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body{
+  background-color: #fdeee5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.switchTab{
+  position: relative;
+  /* position: fixed; */
+  left: 60px;
+  /* top: 340px; */
+}
+.switchTabBtn{
+  z-index: 10;
+  position: relative;
+  position: fixed;
+  left: 531px;
+  top: 375px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  width: 214px;
+  background-color: antiquewhite;
+  cursor: pointer;
+  border: none;
+}
+.btn{
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  
+  left: 530px;
+  top: 180px;
+  /* padding: 15px; */
+  /* margin: 20px; */
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+.btn button{
+  padding: 15px;
+  width: 214px;
+  font-size: 20px;
+  border: 0.1px solid rgb(236, 168, 168);
+  border: 0.1px solid white;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 4px;
+
+}
+.btn .active{
+  background-color: #f34207;
+}
